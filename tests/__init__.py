@@ -9,7 +9,7 @@ import functools
 import inspect
 import codecs
 from unittest import TestCase
-from mock import Mock
+from unittest.mock import Mock
 from sqlalchemy import Table, MetaData
 from sqlalchemy.pool import StaticPool
 from monitorrent.db import init_db_engine, create_db, close_db, DBSession, get_engine
